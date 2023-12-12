@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+
+    <!-- fabicon -->
+    <link rel="shortcut icon" href="./images/logo1.png" type="image/x-icon">
+
+    <!-- tailwind and dasiUI setup -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+
+<body>
+
+          <!--header section start -->
+
+          <header class="flex justify-center items-center gap-5 pt-10">
+                   
+                   <h1 class="text-center font-extrabold text-xl md:text-4xl ">Blog Questions</h1>
+
+                    <div>
+                      <button id="ph_tube" class="btn bg-[red] text-white font-bold text-base hover:bg-[red]">PH Tube</button>
+                   </div>
+
+          </header>
+
+
+
+          <!-- header section end -->
+
+
+          <!-- main part -->
+
+          <main class="mt-10 mx-2 md:mx-16">
+
+            <div class="collapse collapse-arrow bg-base-200 ">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-bold text-[#869a2a]">
+                    Discuss the scope of var, let, and const ?
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-black font-bold">var: Variables declared with var have function scope or global scope.<br>let: Variables declared with let have block scope. They are limited to the block or statement in which they are defined.<br>const: Variables declared with const also have block scope like let.</p>
+                </div>
+              </div>
+
+              <div class="collapse collapse-arrow bg-base-200 my-3">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-bold text-[#869a2a]">
+                    Tell us the use cases of null and undefined ?
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-black font-bold">null: Explicitly represents the absence of a value.
+                    Used when you want to indicate that a variable or property intentionally has no value.<br>
+                    
+                    undefined: Represents the absence of a value when a variable has been declared but hasn't been assigned a value.Automatically assigned to variables that have been declared but not initialized.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl  font-bold text-[#869a2a]">
+                    What do you mean by REST API ?
+                </div>
+                <div class="collapse-content"> 
+                  <p class="text-black font-bold">REST API stands for "Representational State Transfer Application Programming Interface." It is a set of conventions and principles for building and interacting with web services. REST APIs are designed to be simple and scalable, allowing different software applications to communicate with each other over the internet.</p>
+                </div>
+              </div>
+
+
+          </main>
+
+
+          <!-- main part end -->
+
+
+          <!-- js file added -->
+
+          <script src="blog.js"></script>
+
+        
+</body>
+
+</html>
